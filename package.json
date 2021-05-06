@@ -1,0 +1,19 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "1: Download repository and open in desired text editor. 2: Open terminal and run npm install. 3: Start with question 1.",
+  "main": "index.js",
+  "scripts": {
+     "test": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "@types/jest": "26.0.8",
+    "typescript": "^3.7.4",
+    "ts-jest": "^26.1.4"
+  }
+}
