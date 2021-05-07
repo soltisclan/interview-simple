@@ -10,6 +10,15 @@
 // Run the tests with the following command:
 // npm run test 3.test
 
-function vowels(str) {}
+function vowels(str) {
+    var vowels_array = [];
+    str.toLowerCase().split('').forEach(function(char){
+        if(char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u'){
+            vowels_array.push(char);
+        }
+    });
+    return vowels_array.length
+}
 
+console.log(vowels("Hello I am a test string."))
 module.exports = vowels;
