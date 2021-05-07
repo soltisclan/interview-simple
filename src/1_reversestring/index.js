@@ -10,7 +10,10 @@
 // npm run test 1.test
 
 function reverse(str) {
-    
+    var new_str = str.split('').reverse().join('');
+    return new_str;
 }
+
+console.log(reverse("Hello this is a test."))
 
 module.exports = reverse;

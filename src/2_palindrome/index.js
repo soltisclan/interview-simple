@@ -10,6 +10,21 @@
 // Run the tests with the following command:
 // npm run test 2.test
 
-function palindrome(str) {}
+function reverse(str) {
+    new_str = str.split('').reverse().join('');
+    return new_str;
+}
+
+function palindrome(str) {
+    if(str === reverse(str)){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(palindrome("abba"))
+console.log(palindrome("abb a"))
+console.log(palindrome("abcdefg"))
 
 module.exports = palindrome;
