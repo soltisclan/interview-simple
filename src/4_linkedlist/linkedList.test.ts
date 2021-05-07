@@ -57,7 +57,7 @@ describe('Class: LinkedList', () => {
             beforeEach(() => {
                 linkedList = new LinkedList();
             });
-            skip('should return null', () => {
+            it('should return null', () => {
                 expect(linkedList.getHead()).toBeNull();
             });
         });

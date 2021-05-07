@@ -4,7 +4,7 @@
   "description": "1: Download repository and open in desired text editor. 2: Open terminal and run npm install. 3: Start with question 1.",
   "main": "index.js",
   "scripts": {
-     "test": "jest --watch"
+    "test": "jest --watch"
   },
   "jest": {
     "testEnvironment": "node"
